@@ -260,8 +260,8 @@ p {
   margin: 16px 0;
   color: #314158;
   font-size: 1.125rem;
-  line-height: 1.75;
-  letter-spacing: 0.025em;
+  line-height: 1.66;
+  letter-spacing: 0.012em;
   font-weight: 400;
 }
 
@@ -650,7 +650,7 @@ th {
 
   p {
     font-size: 1rem;
-    line-height: 1.75;
+    line-height: 1.66;
   }
 
   ul,
