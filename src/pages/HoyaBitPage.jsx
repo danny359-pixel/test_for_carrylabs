@@ -7,6 +7,7 @@ const article = {
   title: '【2026】HOYA BIT 開戶教學｜台幣入金 + 銀行帳戶綁定完整圖解',
   pageTitle: 'HOYA BIT',
   updatedAt: '最後更新：2026 年 6 月',
+  coverImage: '/hoyabit/cover/cover.png',
   coverTitle: 'HOYA BIT',
   coverSubtitle: '開戶教學封面圖 placeholder',
   imageBasePath: '/hoyabit/new2',
@@ -56,6 +57,7 @@ export default function HoyaBitPage() {
     <ArticleLayout
       meta={article.meta}
       title={article.title}
+      coverImage={article.coverImage}
       coverTitle={article.coverTitle}
       coverSubtitle={article.coverSubtitle}
       updatedAt={article.updatedAt}

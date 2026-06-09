@@ -1,7 +1,7 @@
 import React from 'react';
 import { slug } from '../utils/slug.js';
 
-export default function ArticleLayout({ meta, title, coverTitle, coverSubtitle, updatedAt, tocItems, children }) {
+export default function ArticleLayout({ meta, title, coverImage, coverTitle, coverSubtitle, updatedAt, tocItems, children }) {
   return (
     <main className="article-page">
       <div className="article-layout">
@@ -17,12 +17,16 @@ export default function ArticleLayout({ meta, title, coverTitle, coverSubtitle, 
           </div>
 
           <h1>{title}</h1>
-          <div className="cover-placeholder">
-            <div>
-              <strong>{coverTitle}</strong>
-              <span>{coverSubtitle}</span>
+          {coverImage ? (
+            <img className="cover-image" src={coverImage} alt={title} />
+          ) : (
+            <div className="cover-placeholder">
+              <div>
+                <strong>{coverTitle}</strong>
+                <span>{coverSubtitle}</span>
+              </div>
             </div>
-          </div>
+          )}
           <p className="date">{updatedAt}</p>
 
           {children}

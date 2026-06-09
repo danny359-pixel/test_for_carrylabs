@@ -197,6 +197,14 @@ h1 {
   color: #1a3f77;
 }
 
+.cover-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 16px;
+}
+
 .cover-placeholder div {
   text-align: center;
 }
