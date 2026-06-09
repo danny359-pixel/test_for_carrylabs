@@ -32,6 +32,8 @@ public/
 
 ## Add another exchange article
 
+Follow [ARTICLE_SPEC.md](./ARTICLE_SPEC.md) for the current approved typography, layout, image, and deployment rules.
+
 1. Put images under `public/<exchange-slug>/<image-folder>/`.
 2. Copy `src/pages/HoyaBitPage.jsx` to a new page, for example `BinancePage.jsx`.
 3. Update article metadata, text, `imageBasePath`, `tocItems`, and image groups.
