@@ -117,6 +117,7 @@ a {
 
 .article {
   min-width: 0;
+  font-family: "Noto Serif TC", "Songti TC", "PMingLiU", "MingLiU", serif;
 }
 
 .back-link {
@@ -155,8 +156,8 @@ a {
 h1 {
   margin: 0 0 32px;
   color: #001b3f;
-  font-size: 2.35rem;
-  line-height: 1.35;
+  font-size: 2.55rem;
+  line-height: 1.32;
   letter-spacing: 0;
   font-weight: 900;
 }
@@ -207,40 +208,40 @@ h2 {
   border-radius: 0 8px 8px 0;
   background: #fff6df;
   color: #001b3f;
-  font-size: 1.9rem;
+  font-size: 2rem;
   line-height: 1.35;
   letter-spacing: 0;
   font-weight: 900;
 }
 
 h3 {
-  margin: 44px 0 12px;
+  margin: 48px 0 14px;
   color: #001b3f;
-  font-size: 1.38rem;
+  font-size: 1.55rem;
   line-height: 1.45;
   letter-spacing: 0;
   font-weight: 900;
 }
 
 p {
-  margin: 0 0 24px;
+  margin: 0 0 28px;
   color: #18365f;
-  font-size: 1.32rem;
-  line-height: 1.82;
-  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.72;
+  font-weight: 400;
 }
 
 ul,
 ol {
-  margin: 0 0 30px;
+  margin: 0 0 34px;
   padding-left: 1.45rem;
   color: #18365f;
-  font-size: 1.18rem;
-  line-height: 1.85;
+  font-size: 1.34rem;
+  line-height: 1.9;
 }
 
 li {
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 li::marker {
@@ -257,7 +258,7 @@ li::marker {
 
 .note p {
   margin-bottom: 8px;
-  font-size: 1.08rem;
+  font-size: 1.18rem;
 }
 
 .note p:last-child {
@@ -396,7 +397,7 @@ th {
   gap: 12px;
   border-radius: 8px;
   color: #557091;
-  font-size: 1.05rem;
+  font-size: 1.18rem;
   line-height: 1.35;
   font-weight: 900;
 }
@@ -571,27 +572,28 @@ th {
   }
 
   h1 {
-    font-size: 1.95rem;
+    font-size: 2rem;
   }
 
   h2 {
     margin-top: 42px;
     padding: 14px 18px;
-    font-size: 1.5rem;
+    font-size: 1.58rem;
   }
 
   h3 {
-    font-size: 1.24rem;
+    font-size: 1.34rem;
     margin-top: 38px;
   }
 
   p {
-    font-size: 1.05rem;
+    font-size: 1.12rem;
+    line-height: 1.78;
   }
 
   ul,
   ol {
-    font-size: 1rem;
+    font-size: 1.08rem;
   }
 
   .cover-placeholder {
