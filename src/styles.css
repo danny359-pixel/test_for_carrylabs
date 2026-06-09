@@ -104,6 +104,25 @@ a {
   line-height: 1;
 }
 
+.mobile-menu-button {
+  display: none;
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.mobile-menu-button span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 4px 0;
+  border-radius: 999px;
+  background: #314158;
+}
+
 .article-page {
   padding: 120px 24px 96px;
 }
@@ -526,24 +545,23 @@ th {
 
 @media (max-width: 1180px) {
   .topbar-inner {
-    height: auto;
-    min-height: 82px;
-    padding: 18px 32px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 18px 28px;
+    height: 72px;
+    padding: 0 24px;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 18px;
   }
 
   .topbar-nav {
-    order: 3;
-    width: 100%;
-    overflow-x: auto;
-    gap: 22px;
-    padding-bottom: 4px;
+    display: none;
   }
 
   .topbar-actions {
     margin-left: auto;
+  }
+
+  .mobile-menu-button {
+    display: block;
   }
 
   .article-page {
@@ -561,29 +579,45 @@ th {
 
 @media (max-width: 760px) {
   .topbar-inner {
-    padding: 16px 18px;
+    height: 64px;
+    padding: 0 14px;
+    gap: 10px;
   }
 
   .topbar-logo {
-    max-width: 150px;
+    max-width: 130px;
   }
 
   .topbar-logo img {
-    width: 150px;
+    width: 130px;
   }
 
   .topbar-actions {
-    width: 100%;
-    margin-left: 0;
-    justify-content: space-between;
+    width: auto;
+    margin-left: auto;
+    gap: 8px;
   }
 
   .cta-button {
-    min-width: 112px;
+    min-width: auto;
+    min-height: 38px;
+    padding: 8px 14px;
+    border-radius: 14px;
+    font-size: 0.85rem;
+  }
+
+  .user-circle,
+  .admin-link {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    width: 38px;
+    height: 38px;
   }
 
   .article-page {
-    padding: 132px 18px 58px;
+    padding: 92px 18px 58px;
   }
 
   .back-link {

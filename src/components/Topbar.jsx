@@ -20,6 +20,11 @@ export default function Topbar() {
           <span className="user-circle">◎</span>
           <a className="admin-link" href="#">後台管理</a>
         </div>
+        <button className="mobile-menu-button" type="button" aria-label="開啟選單">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </header>
   );
