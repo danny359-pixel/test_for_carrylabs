@@ -3,10 +3,12 @@ import Topbar from './components/Topbar.jsx';
 import Lightbox from './components/Lightbox.jsx';
 import HomePage from './pages/HomePage.jsx';
 import HoyaBitPage from './pages/HoyaBitPage.jsx';
+import MexcPage from './pages/MexcPage.jsx';
 
 const articles = {
   '/': HomePage,
   '/hoya-bit': HoyaBitPage,
+  '/mexc': MexcPage,
 };
 
 export default function App() {

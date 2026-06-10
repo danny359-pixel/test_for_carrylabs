@@ -9,7 +9,7 @@ const exchanges = [
   { name: 'Bybit', available: false },
   { name: 'BingX', available: false },
   { name: 'Gate', available: false },
-  { name: 'MEXC', available: false },
+  { name: 'MEXC', href: '/mexc', available: true },
 ];
 
 export default function HomePage() {
