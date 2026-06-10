@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Topbar from './components/Topbar.jsx';
 import Lightbox from './components/Lightbox.jsx';
+import HomePage from './pages/HomePage.jsx';
 import HoyaBitPage from './pages/HoyaBitPage.jsx';
 
 const articles = {
-  '/': HoyaBitPage,
+  '/': HomePage,
   '/hoya-bit': HoyaBitPage,
 };
 
 export default function App() {
   const [lightbox, setLightbox] = useState(null);
-  const Page = articles[window.location.pathname] || HoyaBitPage;
+  const Page = articles[window.location.pathname] || HomePage;
 
   useEffect(() => {
     const open = (event) => setLightbox(event.detail);

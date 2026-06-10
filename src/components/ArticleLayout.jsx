@@ -6,7 +6,7 @@ export default function ArticleLayout({ meta, title, coverImage, coverTitle, cov
     <main className="article-page">
       <div className="article-layout">
         <article className="article">
-          <a className="back-link" href="#">← 返回教學列表</a>
+          <a className="back-link" href="/">← 返回教學列表</a>
 
           <div className="meta-row">
             <span className="unit-chip">{meta.unit}</span>
