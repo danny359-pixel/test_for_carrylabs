@@ -128,11 +128,11 @@ a {
 }
 
 .article-layout {
-  width: min(100%, 1152px);
+  width: min(100%, 1240px);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 288px;
-  gap: 48px;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 80px;
   align-items: start;
 }
 
@@ -320,25 +320,30 @@ li::before {
 .article-images {
   margin: 32px 0;
   display: grid;
-  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 300px));
+  gap: 20px;
   justify-content: start;
   align-items: start;
 }
 
 .article-images.count-1 {
-  grid-template-columns: minmax(0, 300px);
+  grid-template-columns: minmax(0, 340px);
 }
 
 .article-images.count-2 {
-  grid-template-columns: repeat(2, minmax(0, 300px));
+  grid-template-columns: repeat(2, minmax(0, 330px));
 }
 
 .article-images.count-3 {
-  grid-template-columns: repeat(3, minmax(0, 280px));
+  grid-template-columns: repeat(3, minmax(0, 300px));
 }
 
 .article-images.count-4 {
-  grid-template-columns: repeat(4, minmax(0, 220px));
+  grid-template-columns: repeat(2, minmax(0, 330px));
+}
+
+.article-images.count-5 {
+  grid-template-columns: repeat(3, minmax(0, 300px));
 }
 
 .article-image {
@@ -414,17 +419,17 @@ th {
 }
 
 .side-card {
-  padding: 16px;
+  padding: 14px;
   border: 1px solid rgba(226, 232, 240, 0.8);
-  border-radius: 16px;
+  border-radius: 14px;
   background: #ffffff;
   box-shadow: 0 8px 22px rgba(0, 27, 63, 0.08);
 }
 
 .side-title {
-  margin: 0 0 16px;
+  margin: 0 0 14px;
   color: #90a1b9;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   line-height: 1.4;
   font-weight: 900;
   letter-spacing: 0.25em;
@@ -432,18 +437,18 @@ th {
 
 .toc {
   display: grid;
-  gap: 12px;
+  gap: 10px;
 }
 
 .toc a {
-  min-height: 40px;
-  padding: 10px 12px;
+  min-height: 36px;
+  padding: 8px 10px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 9px;
   border-radius: 8px;
   color: #62748e;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   line-height: 1.4;
   font-weight: 700;
 }
@@ -673,7 +678,8 @@ th {
   .article-images.count-1,
   .article-images.count-2,
   .article-images.count-3,
-  .article-images.count-4 {
+  .article-images.count-4,
+  .article-images.count-5 {
     grid-template-columns: minmax(0, 260px);
   }
 
