@@ -4,11 +4,15 @@ import Lightbox from './components/Lightbox.jsx';
 import HomePage from './pages/HomePage.jsx';
 import HoyaBitPage from './pages/HoyaBitPage.jsx';
 import MexcPage from './pages/MexcPage.jsx';
+import BingXPage from './pages/BingXPage.jsx';
+import BinancePage from './pages/BinancePage.jsx';
 
 const articles = {
   '/': HomePage,
   '/hoya-bit': HoyaBitPage,
   '/mexc': MexcPage,
+  '/bingx': BingXPage,
+  '/binance': BinancePage,
 };
 
 export default function App() {

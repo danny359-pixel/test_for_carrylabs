@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 
 const exchanges = [
   { name: 'HOYA BIT', href: '/hoya-bit', available: true },
-  { name: '幣安', available: false },
+  { name: '幣安', href: '/binance', available: true },
   { name: '派網', available: false },
   { name: 'OKX', available: false },
   { name: 'Bitget', available: false },
   { name: 'Bybit', available: false },
-  { name: 'BingX', available: false },
+  { name: 'BingX', href: '/bingx', available: true },
   { name: 'Gate', available: false },
   { name: 'MEXC', href: '/mexc', available: true },
 ];

@@ -7,6 +7,7 @@ const article = {
   title: '【2026】MEXC 開戶教學｜完整圖解 + KYC 身份驗證流程',
   pageTitle: 'MEXC 開戶教學',
   updatedAt: '最後更新：2026 年 6 月',
+  coverImage: '/covers/mexc.png',
   coverTitle: 'MEXC',
   coverSubtitle: '開戶教學與 KYC 身份驗證流程',
   imageBasePath: '/mexc/new',
@@ -57,6 +58,7 @@ export default function MexcPage() {
     <ArticleLayout
       meta={article.meta}
       title={article.title}
+      coverImage={article.coverImage}
       coverTitle={article.coverTitle}
       coverSubtitle={article.coverSubtitle}
       updatedAt={article.updatedAt}
