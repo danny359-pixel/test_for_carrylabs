@@ -27,20 +27,25 @@ const article = {
     '台灣交易所 vs 海外交易所',
   ],
   images: {
-    signup: ['100', '200', '300'],
-    download: ['400'],
-    login: ['500', '600', '700'],
-    appVerify: ['750'],
-    kycStart: ['800', '900'],
-    phone: ['1000'],
-    id: ['1100', '1200', '1300'],
-    secondId: ['1400', '1500'],
-    profile: ['1600', '1700', '1800', '1900'],
-    bank: ['2000', '2300', '2400'],
-    authIntro: ['2500'],
-    authKey: ['2600'],
-    authenticator: ['2700', '2800', '2850'],
-    authDone: ['2900', '30000'],
+    signupStart: ['100'],
+    signupVerify: ['200', '300'],
+    signupDone: ['400'],
+    download: ['500'],
+    login: ['600', '700', '750'],
+    appVerify: ['800'],
+    kycStart: ['900', '1000'],
+    phone: ['1100'],
+    id: ['1200', '1300', '1400'],
+    face: ['1500'],
+    secondId: ['1600'],
+    profile: ['1700', '1800', '1900'],
+    bank: ['2000', '2300'],
+    authIntro: ['2400'],
+    authKey: ['2500'],
+    authenticator: ['2600', '2700', '2800'],
+    authSms: ['2850'],
+    authCopy: ['2900'],
+    authDone: ['30000'],
   },
 };
 
@@ -97,10 +102,12 @@ export default function HoyaBitPage() {
       <p>建立帳號有兩種方式。如果你有 Google 帳號，推薦直接點選「使用 Google 登入」快速建立，未來登入時直接透過 Google 即可，不需要另外記憶密碼。</p>
       <p>如果選擇 Email 信箱註冊，填入你的常用 Email，設定登入密碼。密碼格式必須至少包含一個大寫、小寫英文字母，至少包含一個數字，長度 8 到 16 個字元。設定你習慣使用的密碼即可，並在邀請碼欄位填入 Carry Labs 的推薦碼：carrylabs。</p>
       <p>勾選底下的條款確認後，按下「註冊」。</p>
-      <Images name="signup" alt="建立 HOYA BIT 帳號" />
+      <Images name="signupStart" alt="建立 HOYA BIT 帳號" />
       <p>系統會寄送一封驗證信到你填入的 email，前往信箱取得驗證碼填入後完成帳號確認。</p>
       <p>小提醒：有時候驗證信可能會被歸類到「垃圾郵件」或「所有郵件」資料夾，在收件匣找不到時可以到這兩個地方確認，或點選「重新發送驗證信」再試一次。</p>
+      <Images name="signupVerify" alt="HOYA BIT 信箱驗證" />
       <p>這樣就完成帳號初步建立。後續的身份驗證建議使用 APP 操作會更方便，這個頁面可以先點「稍後驗證」，等下載好 APP 再繼續。</p>
+      <Images name="signupDone" alt="HOYA BIT 帳號建立完成" />
 
       <h2 id={slug('Step 2：下載並登入 HOYA BIT APP')}>Step 2：下載並登入 HOYA BIT APP</h2>
       <p>在 APP Store 或是 Google Play 找到 APP 下載入口，按照你的手機型號點選對應的下載連結，進入下載頁面後點「取得」或「下載」來安裝。安裝完畢後，點選「打開」或「執行」。</p>
@@ -126,6 +133,7 @@ export default function HoyaBitPage() {
 
       <h3>人臉辨識</h3>
       <p>完成身分證拍攝後，APP 會開啟前鏡頭進行人臉辨識。拍攝時請摘下帽子、眼鏡和口罩，按照畫面指示完成辨識動作。</p>
+      <Images name="face" alt="HOYA BIT 人臉辨識" />
 
       <h3>第二證件上傳</h3>
       <p>接著需要上傳第二份證件。請選擇健保卡、駕照或護照其中一項（護照請確認在效期內），按照畫面上傳清晰的正面照片。</p>
@@ -160,9 +168,11 @@ export default function HoyaBitPage() {
 
       <h3>Step 3：輸入簡訊驗證碼確認</h3>
       <p>回到 HOYA BIT APP，系統會先傳送簡訊驗證碼到你的手機，輸入收到的 6 位數簡訊碼。</p>
+      <Images name="authSms" alt="HOYA BIT 2FA 簡訊驗證" />
 
       <h3>Step 4：填入驗證器動態碼完成設定</h3>
       <p>接著回到 Google 驗證器，點擊你剛才新增的驗證器數字，以完成驗證碼的複製。</p>
+      <Images name="authCopy" alt="複製 Google Authenticator 動態碼" />
       <p>最後回到 HOYA BIT APP，填入 Google Authenticator 上生成的 6 位數動態碼（動態碼每 30 秒更新一次，請在時間內快速填入），確認後 2FA 設定就完成了。</p>
       <Images name="authDone" alt="完成 2FA 設定" />
 
