@@ -367,7 +367,7 @@ export default function BinancePage() {
       <Images name="group25" />
 
       <p>
-        7. 輸入要提領的 USDT 數量，確認後點「確認」完成，填入手機驗證碼、Google
+        輸入要提領的 USDT 數量，確認後點「確認」完成，填入手機驗證碼、Google
         驗證器提供的即時驗證碼，即可完成幣安入金。
       </p>
 
