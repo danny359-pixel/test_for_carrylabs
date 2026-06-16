@@ -4,11 +4,11 @@ const exchanges = [
   { name: 'HOYA BIT', href: '/hoya-bit', available: true },
   { name: '幣安', href: '/binance', available: true },
   { name: '派網', available: false },
-  { name: 'OKX', available: false },
+  { name: 'OKX', href: '/okx', available: true },
   { name: 'Bitget', available: false },
   { name: 'Bybit', available: false },
   { name: 'BingX', href: '/bingx', available: true },
-  { name: 'Gate', available: false },
+  { name: 'Gate', href: '/gate', available: true },
   { name: 'MEXC', href: '/mexc', available: true },
 ];
 
@@ -23,7 +23,7 @@ export default function HomePage() {
         <div className="home-hero-content">
           <p className="home-kicker">Carry Labs 教學目錄</p>
           <h1 id="home-title">交易所註冊教學</h1>
-          <p className="home-intro">選擇你要查看的交易所教學。目前 HOYA BIT 已完成，其它教學會陸續補上。</p>
+          <p className="home-intro">選擇你要查看的交易所教學。已完成的文章可直接進入查看，其它教學會陸續補上。</p>
           <p className="home-preview-note">
             這個分類頁沒有要做～ 單純只是為了方便我們自己預覽而已
             <br />

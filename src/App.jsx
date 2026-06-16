@@ -6,6 +6,8 @@ import HoyaBitPage from './pages/HoyaBitPage.jsx';
 import MexcPage from './pages/MexcPage.jsx';
 import BingXPage from './pages/BingXPage.jsx';
 import BinancePage from './pages/BinancePage.jsx';
+import GatePage from './pages/GatePage.jsx';
+import OkxPage from './pages/OkxPage.jsx';
 
 const articles = {
   '/': HomePage,
@@ -13,6 +15,8 @@ const articles = {
   '/mexc': MexcPage,
   '/bingx': BingXPage,
   '/binance': BinancePage,
+  '/gate': GatePage,
+  '/okx': OkxPage,
 };
 
 export default function App() {
