@@ -282,14 +282,14 @@ export default function GatePage() {
       </p>
       <p>接下來，複製Gate提供的充幣地址（一長串英數字組合）。</p>
       <Images name="image21" alt={article.pageTitle} />
-      <h3>Step 4：前往 HOYA BIT 發送 USDT（完整 7 步驟）</h3>
+      <h3>Step 4：前往 HOYA BIT 發送 USDT</h3>
       <p>
         將從Gate複製的地址貼入「接收地址」欄位，最後點選「儲存並下一步」。此處的接收者名稱可自行填入，例如：小明；而接收錢包／平台名稱，可填入交易所名稱，比如
         Gate。
       </p>
       <Images name="image22" alt={article.pageTitle} />
       <p>
-        7. 輸入要提領的 USDT 數量，確認後點「確認」完成，填入手機驗證碼、Google
+        輸入要提領的 USDT 數量，確認後點「確認」完成，填入手機驗證碼、Google
         驗證器提供的即時驗證碼，即可完成Gate入金。
       </p>
       <Images name="image23" alt={article.pageTitle} />

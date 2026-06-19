@@ -8,6 +8,7 @@ import BingXPage from './pages/BingXPage.jsx';
 import BinancePage from './pages/BinancePage.jsx';
 import GatePage from './pages/GatePage.jsx';
 import OkxPage from './pages/OkxPage.jsx';
+import BitgetPage from './pages/BitgetPage.jsx';
 
 const articles = {
   '/': HomePage,
@@ -17,6 +18,7 @@ const articles = {
   '/binance': BinancePage,
   '/gate': GatePage,
   '/okx': OkxPage,
+  '/bitget': BitgetPage,
 };
 
 export default function App() {

@@ -5,7 +5,7 @@ const exchanges = [
   { name: '幣安', href: '/binance', available: true },
   { name: '派網', available: false },
   { name: 'OKX', href: '/okx', available: true },
-  { name: 'Bitget', available: false },
+  { name: 'Bitget', href: '/bitget', available: true },
   { name: 'Bybit', available: false },
   { name: 'BingX', href: '/bingx', available: true },
   { name: 'Gate', href: '/gate', available: true },
