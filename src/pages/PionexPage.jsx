@@ -104,63 +104,63 @@ export default function PionexPage() {
       <p>用手機瀏覽器開啟官網後，建立帳號有兩種方式可以選擇：</p>
       <p>如果你有 Google 帳號，推薦直接點選「使用 Google 帳號登入」，選擇帳號並授權後即完成快速註冊，無需另外設定密碼，最為便捷。</p>
       <p>如果選擇 Email 信箱或手機進行註冊，請向下滑填入常用 email 或手機，接著設定密碼。</p>
-      <Images name="group01" alt={"?? Pionex"} />
+      <Images name="group01" />
       <p>密碼格式必須符合以下規範：</p>
       <p>- 至少包含一個大寫英文字母</p>
       <p>- 至少包含一個數字</p>
       <p>- 長度至少 8 個字元以上</p>
-      <Images name="group02" alt={"?? Pionex"} />
+      <Images name="group02" />
       <p>填寫完成後點「註冊」。點擊後畫面可能出現拖曳拼圖安全驗證，將圓圈按鈕往右拖到對應缺口完成即可。</p>
       <h2 id={slug("Step 2：email 驗證")}>Step 2：email 驗證</h2>
       <p>系統會傳送驗證碼到你填寫的 email 信箱，請前往信箱找到驗證信並填入驗證碼，完成後就會看到「註冊成功！」的訊息。</p>
       <p>💡 若收不到驗證信，請檢查「垃圾郵件」或「所有郵件」資料夾；仍找不到可點「重新發送」。</p>
-      <Images name="group03" alt={"?? Pionex"} />
+      <Images name="group03" />
       <h2 id={slug("Step 3：下載並開啟派網 APP，用剛建立的帳號登入")}>Step 3：下載並開啟派網 APP，用剛建立的帳號登入</h2>
       <p>接著，請下載派網 APP，後續的 KYC 身份驗證與安全設定在 APP 上操作會更直覺方便。</p>
       <p>‧ iOS 下載：App Store 搜尋「Pionex」</p>
       <p>‧ Android 下載：Google Play 搜尋「Pionex」</p>
-      <Images name="group04" alt={"?? Pionex"} />
+      <Images name="group04" />
       <p>下載並開啟 APP 後，選擇「登入」，輸入你剛才建立的 email 帳號與密碼登入。</p>
-      <Images name="group05" alt={"?? Pionex"} />
+      <Images name="group05" />
       <p>此時可以進行通行密鑰的設定，以便未來快速登入，但建議可以點擊「以後再說」，先進行 KYC 實名認證</p>
-      <Images name="group06" alt={"?? Pionex"} />
+      <Images name="group06" />
       <h2 id={slug("Step 4：KYC 實名認證")}>Step 4：KYC 實名認證</h2>
       <p>完成帳號建立後，進行手機號碼綁定與 KYC 實名認證，解鎖完整功能與提領額度。</p>
       <h3>1.進入認證</h3>
       <p>在首頁直接點擊「去認證」，開始 KYC 流程。</p>
-      <Images name="group07" alt={"?? Pionex"} />
+      <Images name="group07" />
       <p>接著確認國家為「Taiwan」，並填入姓名，勾選選項後，即可完成一級認證</p>
-      <Images name="group08" alt={"?? Pionex"} />
+      <Images name="group08" />
       <h3>2.二級實名認證</h3>
       <p>接著繼續點擊「去升級」，並且開始認證，並點選「非美國居民」的選項</p>
-      <Images name="group09" alt={"?? Pionex"} />
+      <Images name="group09" />
       <p>此時選擇使用「身分證」作為驗證文件（駕照、護照也可），完成後點選「Continue」。</p>
-      <Images name="group10" alt={"?? Pionex"} />
+      <Images name="group10" />
       <h3>4.上傳證件照片</h3>
       <p>按照要求分別實體拍攝以下三張照片：</p>
       <p>‧ 身分證正面（清晰、完整，沒有遮擋）</p>
       <p>‧ 身分證背面</p>
       <p>完成後會進行人臉辨識，依照指示完成辨識即可</p>
-      <Images name="group11" alt={"?? Pionex"} />
+      <Images name="group11" />
       <p>全部上傳完成後，點選「提交」送出審核。審核通過後，派網會發送 email 通知你。</p>
-      <Images name="group12" alt={"?? Pionex"} />
+      <Images name="group12" />
       <h2 id={slug("Step 5：設定 2FA 雙重驗證")}>Step 5：設定 2FA 雙重驗證</h2>
       <p>在等待 KYC 審核的期間，可以先完成 2FA 雙重驗證的設定，不需要等 KYC 通過才能做。</p>
       <p>2FA 雙重驗證能在密碼之外，為帳號加上一層每 30 秒更新的一次性動態碼。即使有人取得你的密碼，沒有驗證碼也無法登入，帳號安全大幅提升。</p>
       <h3>Step 1：進入驗證器綁定</h3>
       <p>載派網的首頁，可以直接點擊「去綁定」，就可以進入 Google 驗證器設定頁面。完成信箱驗證後，即可進行下一步。</p>
-      <Images name="group13" alt={"?? Pionex"} />
+      <Images name="group13" />
       <p>最後，請複製這裡的金鑰，然後我們將回到應用程式下載的地方，去下載驗證器。</p>
-      <Images name="group14" alt={"?? Pionex"} />
+      <Images name="group14" />
       <h3>Step 3：綁定驗證器 APP</h3>
-      <Images name="group15" alt={"?? Pionex"} />
+      <Images name="group15" />
       <p>請在手機安裝 Google Authenticator 驗證器 APP：</p>
       <p>‧ iOS / Android：Google Authenticator</p>
       <p>下載後開啟 App，使用你的 Google 帳號登入。</p>
       <p>在 Google Authenticator 中，點選右下角「+」→「輸入設定金鑰」，然後貼上剛才在派網上複製的金鑰，即可完成綁定</p>
-      <Images name="group16" alt={"?? Pionex"} />
+      <Images name="group16" />
       <p>綁定後，驗證器 APP 會開始每 30 秒生成一組 6 位數動態碼。將這組驗證碼填入派網確認，並點擊下方的「確定」，即完成了 2FA 設定。</p>
-      <Images name="group17" alt={"?? Pionex"} />
+      <Images name="group17" />
       <p>恭喜完成！之後每次登入派網時，都需要輸入驗證器生成的動態碼，帳號安全性大幅提升。開戶全部完成後，就可以下載派網APP、開始出入金與交易了！</p>
       <h2 id={slug("Step 6：HOYA BIT 入金教學")}>Step 6：HOYA BIT 入金教學</h2>
       <p>為什麼需要透過 HOYA BIT 入金？</p>
@@ -175,32 +175,32 @@ export default function PionexPage() {
       <p>以下將示範完整的 HOYA BIT 入金 → 派網充幣流程，按照圖示一步一步操作就可以完成：</p>
       <h3>Step1：HOYA BIT 入金</h3>
       <p>1. 在 HOYA BIT 以入金台幣，以先前綁定的銀行帳戶，轉帳至「專屬信託帳戶」</p>
-      <Images name="group18" alt={"?? Pionex"} />
+      <Images name="group18" />
       <p>2. 在台幣入金後，請輸入你想用多少台幣來購買 USDT</p>
-      <Images name="group19" alt={"?? Pionex"} />
+      <Images name="group19" />
       <h3>Step2：HOYA BIT 準備提幣</h3>
       <p>回到 HOYA BIT APP，點選右下角進入首頁，點選「提幣」，選擇「USDT」，並開始選擇主網</p>
-      <Images name="group20" alt={"?? Pionex"} />
+      <Images name="group20" />
       <p>此時注意，選擇哪一個主網，需要依我們要「提領到哪個交易所」而定，「提領」與「充值」必須同主網，比如我們剛才選擇的 BSC。</p>
       <p>另外，單就手續費而言，BSC ≒ AVAX-C &lt; TRC20，其中 TRC20 通用性最廣，但手續費相對高一點點。</p>
-      <Images name="group21" alt={"?? Pionex"} />
+      <Images name="group21" />
       <h3>Step 3：在派網取得入金地址</h3>
       <p>進入派網 APP 首頁，點擊上方的「充幣」，此時選擇 USDT 這個幣種（最主流的美元穩定幣），並選擇充幣的主網（主鏈）。</p>
-      <Images name="group22" alt={"?? Pionex"} />
+      <Images name="group22" />
       <p>請依以下優先順序選擇：</p>
       <p>‧ 優先選擇 BNB Smart Chain（BEP20 或稱 BSC），手續費最低</p>
       <p>‧ 次選 TRC20（TRON），此為最通用的鏈，幾乎所有交易所都支援，手續費也低</p>
       <p>⚠️ 請記下你選擇的網路，之後在 HOYA BIT 提幣時，必須選擇完全相同的網路，否則資金將無法找回！</p>
       <p>接下來，複製派網提供的充幣地址（一長串英數字組合）。</p>
-      <Images name="group23" alt={"?? Pionex"} />
+      <Images name="group23" />
       <h3>Step 4：前往 HOYA BIT 發送 USDT</h3>
       <p>將從派網複製的地址貼入「接收地址」欄位，最後點選「儲存並下一步」。此處的接收者名稱可自行填入，例如：小明；而接收錢包／平台名稱，可填入交易所名稱，比如派網。</p>
-      <Images name="group24" alt={"?? Pionex"} />
+      <Images name="group24" />
       <p>輸入要提領的 USDT 數量，確認後點「確認」完成，填入手機驗證碼、Google 驗證器提供的即時驗證碼，即可完成派網入金。</p>
-      <Images name="group25" alt={"?? Pionex"} />
+      <Images name="group25" />
       <p>⚠️ 重要：HOYA BIT 和派網選擇的網路必須完全一致，不同網路轉帳可能導致資金損失。</p>
       <p>等待鏈上確認（通常 5–15 分鐘），到帳後即可開始交易。</p>
-      <p>延伸閱讀</p>
+      <h2 id={slug("延伸閱讀")}>延伸閱讀</h2>
       <p>‧ HOYA BIT 開戶教學｜台灣交易所 + 台幣入金完整流程</p>
       <p>‧ 幣安 Binance 開戶教學</p>
       <p>‧ OKX 開戶教學</p>
