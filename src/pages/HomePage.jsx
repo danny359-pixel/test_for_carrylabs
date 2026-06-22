@@ -3,10 +3,10 @@ import React, { useEffect } from 'react';
 const exchanges = [
   { name: 'HOYA BIT', href: '/hoya-bit', available: true },
   { name: '幣安', href: '/binance', available: true },
-  { name: '派網', available: false },
+  { name: '派網 Pionex', href: '/pionex', available: true },
   { name: 'OKX', href: '/okx', available: true },
   { name: 'Bitget', href: '/bitget', available: true },
-  { name: 'Bybit', available: false },
+  { name: 'Bybit', href: '/bybit', available: true },
   { name: 'BingX', href: '/bingx', available: true },
   { name: 'Gate', href: '/gate', available: true },
   { name: 'MEXC', href: '/mexc', available: true },
